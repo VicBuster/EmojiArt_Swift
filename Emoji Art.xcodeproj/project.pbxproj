@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		68AFEF372BD64C7E008878A9 /* EmojiArtDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AFEF362BD64C7E008878A9 /* EmojiArtDocumentView.swift */; };
 		68AFEF392BD656FC008878A9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AFEF382BD656FC008878A9 /* Extensions.swift */; };
+		68ECF1372BFF871400F7EBDD /* Sturldata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ECF1362BFF871400F7EBDD /* Sturldata.swift */; };
 		68F861E12BCE543F0062EFAC /* Emoji_ArtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F861E02BCE543F0062EFAC /* Emoji_ArtApp.swift */; };
 		68F861E32BCE543F0062EFAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F861E22BCE543F0062EFAC /* ContentView.swift */; };
 		68F861E52BCE54410062EFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F861E42BCE54410062EFAC /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		68AFEF362BD64C7E008878A9 /* EmojiArtDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentView.swift; sourceTree = "<group>"; };
 		68AFEF382BD656FC008878A9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		68ECF1362BFF871400F7EBDD /* Sturldata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sturldata.swift; sourceTree = "<group>"; };
 		68F861DD2BCE543F0062EFAC /* Emoji Art.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Art.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F861E02BCE543F0062EFAC /* Emoji_ArtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_ArtApp.swift; sourceTree = "<group>"; };
 		68F861E22BCE543F0062EFAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				68F861EE2BCE55160062EFAC /* EmojiArt.swift */,
 				68F861F02BCE568E0062EFAC /* EmojiArtDocument.swift */,
 				68AFEF362BD64C7E008878A9 /* EmojiArtDocumentView.swift */,
+				68ECF1362BFF871400F7EBDD /* Sturldata.swift */,
 				68AFEF382BD656FC008878A9 /* Extensions.swift */,
 				68F861E42BCE54410062EFAC /* Assets.xcassets */,
 				68F861E62BCE54410062EFAC /* Preview Content */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68ECF1372BFF871400F7EBDD /* Sturldata.swift in Sources */,
 				68F861EF2BCE55160062EFAC /* EmojiArt.swift in Sources */,
 				68AFEF392BD656FC008878A9 /* Extensions.swift in Sources */,
 				68AFEF372BD64C7E008878A9 /* EmojiArtDocumentView.swift in Sources */,
@@ -296,6 +300,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +333,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
